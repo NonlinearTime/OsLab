@@ -1,0 +1,1 @@
+cmd_/home/haines/os/lab3/mydev.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/haines/os/lab3/mydev.ko /home/haines/os/lab3/mydev.o /home/haines/os/lab3/mydev.mod.o ;  true

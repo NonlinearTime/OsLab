@@ -71,9 +71,9 @@ void RefreshDialog::on_pushButton_clicked()
 //        }
 //    }
 
-    counter->start("/home/haines/os/lab1_1");
-    adder->start("/home/haines/os/lab1_2");
-    timer->start("/home/haines/os/lab1_3");
+    counter->start("/home/haines/lab11/lab1_1");
+    adder->start("/home/haines/lab11/lab1_2");
+    timer->start("/home/haines/lab11/lab1_3");
 }
 
 void RefreshDialog::show_counter() {
